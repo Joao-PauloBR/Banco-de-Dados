@@ -1,9 +1,9 @@
-# Banco-de-Dados SQL Server
-O projeto é um conjunto de comandos DDL(Data Definition Language) que foi utilizado para construção de 4 tabelas: Cliente, Carro, Apólice e Sinistro.
-O código logo abaixo foi o primeiro projeto realizado de criação de um banco de dados (modelo físico) para a FATEC Itapira, ministrado pelo professor Mateus Guilherme Fuini, professor da disciplina Banco de Dados - Relacional.
+## Banco de dados: criação de tabelas (modelo físico)
 
+### 💡 Visão Geral 
+- O trabalho foi escrito com a utilização dos comandos DDL(Data Definition Language) - Create, Alter, Drop - para a implementação de quatro tabelas e inserir restrições de tipo e valores de dados, utilizando o SQL Server.  
 
-
+- A atividade teve como objetivo exercitar os conceitos trabalhados na disciplina de Banco de Dados - Relacional, administrada pelo professor [Mateus Guilherme Fuini](https://br.linkedin.com/in/mateusfuini) na instituição [FATEC Itapira](https://fatecitapira.edu.br/).
 
 
 Create table Cliente(
