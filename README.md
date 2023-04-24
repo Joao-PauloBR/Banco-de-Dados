@@ -1,4 +1,4 @@
-# Banco de dados: criação de tabelas (modelo físico)
+## Banco de dados: criação de tabelas (modelo físico)
 
 ### 💡 Visão Geral 
 - O trabalho foi escrito com a utilização dos comandos DDL(Data Definition Language) - Create, Alter, Drop - para a implementação de quatro tabelas e inserir restrições de tipo e valores de dados, utilizando o SQL Server.  
