@@ -5,6 +5,10 @@
 
 - A atividade teve como objetivo exercitar os conceitos trabalhados na disciplina de Banco de Dados - Relacional, administrada pelo professor [Mateus Guilherme Fuini](https://br.linkedin.com/in/mateusfuini) na instituição [FATEC Itapira](https://fatecitapira.edu.br/).
 
+![Modelo Entidade Relacionamento(MER)](Banco-de-Dados/img/Ativadade DDL.png)
+
+## Cliente
+
 ```sql
 -- Cliente:
 CREATE TABLE Cliente
