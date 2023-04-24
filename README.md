@@ -1,13 +1,17 @@
-## Banco de dados: criação de tabelas (modelo físico)
+# Banco de dados: criação de tabelas (modelo físico)
 
 ### 💡 Visão Geral 
 - O trabalho foi escrito com a utilização dos comandos DDL(Data Definition Language) - Create, Alter, Drop - para a implementação de quatro tabelas e inserir restrições de tipo e valores de dados, utilizando o SQL Server.  
 
 - A atividade teve como objetivo exercitar os conceitos trabalhados na disciplina de Banco de Dados - Relacional, administrada pelo professor [Mateus Guilherme Fuini](https://br.linkedin.com/in/mateusfuini) na instituição [FATEC Itapira](https://fatecitapira.edu.br/).
 
-![Modelo Entidade Relacionamento(MER)](./img/Ativadade DDL.png)
+![Modelo Entidade Relacionamento(MER)](./img/mer.png)
 
-## Cliente
+## Contexto do exercício
+
+### Tabela Cliente
+
+Contém informações sobre os clientes da seguradora. Identificador exclusivo para CodCliente, tornando-o uma chave primária(PK) e, consequentemente, diferenciando cada cliente cadastrado. A tabela deve ter as colunas Nome, CPF, Sexo, Estado, Cidade, Bairro, Numero, Rua, TelefoneFixo e TelefoneCelular para armazenar informações pessoais e de contato dos clientes. As colunas possuem restrições[^1], como a coluna Nome que não pode ser nula (NOT NULL), e as colunas CPF e TelefoneCelular que devem ser únicas (UNIQUE). A coluna Cidade possui um valor padrão definido como 'Itapira', ou seja, caso a informação não seja fornecida, esse será o valor padrão atribuído.
 
 ```sql
 -- Cliente:
